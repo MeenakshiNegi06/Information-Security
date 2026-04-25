@@ -1,6 +1,6 @@
 function checkPassword() {
     // 1. Pehle se set kiya gaya password
-    const correctPassword = "MySecretPassword123";
+    const correctPassword = "132167";
 
     // 2. User ne jo password dala wo uthao
     const enteredPassword = document.getElementById("userPass").value;
