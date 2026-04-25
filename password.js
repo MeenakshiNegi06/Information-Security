@@ -10,7 +10,7 @@ function checkPassword() {
     if (enteredPassword === correctPassword) {
         // Agar password sahi hai
         alert("Success! Opening website...");
-        window.location.href = "index.html"; // Yaha apni website ka link dalein
+        window.location.href ="webpage.html"; // Yaha apni website ka link dalein
     } else {
         // Agar password galat hai
         messageDisplay.innerText = "Incorrect password! Please try again.";
